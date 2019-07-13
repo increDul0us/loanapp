@@ -1,8 +1,7 @@
-# Node.js & Passport Login
+# increloan
 
-This is a user login and registration app using Node.js, Express, Passport, Mongoose, EJS and some other packages.
+A backend api where registered users can apply for loans with unit testing.
 
-### Version: 2.0.0
 
 ### Usage
 
@@ -12,12 +11,11 @@ $ npm install
 
 ```sh
 $ npm start
-# Or run with Nodemon
-$ npm run dev
 
-# Visit http://localhost:5000
 ```
-
-### MongoDB
-
-Open "config/keys.js" and add your MongoDB URI, local or Atlas
+```sh
+1) API to create user: http://localhost:5000/users/register
+2) API for user to login to their account and return their bio data: http://localhost:5000/users/login
+3) API for user to get loans available: http://localhost:5000/loans/
+4) API for user to apply for loan: http://localhost:5000/loans/apply
+```
