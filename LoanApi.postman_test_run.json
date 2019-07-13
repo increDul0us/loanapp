@@ -1,0 +1,206 @@
+{
+	"id": "6150b308-8cd7-444e-96bc-a3f68fc647ca",
+	"name": "LoanApi",
+	"allTests": [],
+	"timestamp": "2019-07-13T11:19:41.144Z",
+	"collection_id": "a30426ae-bd65-4875-887e-bb08ccfc3c1b",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "0",
+	"data": [],
+	"delay": 5,
+	"count": 2,
+	"collection": {
+		"id": "a30426ae-bd65-4875-887e-bb08ccfc3c1b",
+		"name": "LoanApi",
+		"description": "",
+		"auth": null,
+		"events": null,
+		"variables": [],
+		"order": [
+			"ce3af83d-32b6-4915-abb6-eb2176905e25",
+			"4223a2ee-ab7c-4b7b-80d0-59d702cb3740",
+			"c4de5468-bc0d-4f72-8564-632bae91e6c1",
+			"7cff2179-f5fd-4964-bbaa-4f4fc0fa14fe"
+		],
+		"folders_order": [],
+		"owner": "0",
+		"favorite": false
+	},
+	"folder": null,
+	"environment": null,
+	"globals": null,
+	"results": [
+		{
+			"name": "http://localhost:5000/users/register",
+			"id": "ce3af83d-32b6-4915-abb6-eb2176905e25",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"8",
+				"3"
+			],
+			"allTests": [
+				{},
+				{}
+			],
+			"time": "3",
+			"totalRequestTime": 11,
+			"iterationResults": {}
+		},
+		{
+			"name": "http://localhost:5000/users/login",
+			"id": "4223a2ee-ab7c-4b7b-80d0-59d702cb3740",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"4",
+				"3"
+			],
+			"allTests": [
+				{},
+				{}
+			],
+			"time": "3",
+			"totalRequestTime": 7,
+			"iterationResults": {}
+		},
+		{
+			"name": "http://localhost:5000/loans/",
+			"id": "c4de5468-bc0d-4f72-8564-632bae91e6c1",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"4",
+				"3"
+			],
+			"allTests": [
+				{},
+				{}
+			],
+			"time": "3",
+			"totalRequestTime": 7,
+			"iterationResults": {}
+		},
+		{
+			"name": "http://localhost:5000/loans/apply",
+			"id": "7cff2179-f5fd-4964-bbaa-4f4fc0fa14fe",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"3",
+				"5"
+			],
+			"allTests": [
+				{},
+				{}
+			],
+			"time": "5",
+			"totalRequestTime": 8,
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 0,
+	"totalFail": 0,
+	"totalTime": 33,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "http://localhost:5000/users/register",
+			"id": "ce3af83d-32b6-4915-abb6-eb2176905e25",
+			"url": "http://localhost:5000/users/register",
+			"time": "3",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "http://localhost:5000/users/login",
+			"id": "4223a2ee-ab7c-4b7b-80d0-59d702cb3740",
+			"url": "http://localhost:5000/users/login",
+			"time": "3",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "http://localhost:5000/loans/",
+			"id": "c4de5468-bc0d-4f72-8564-632bae91e6c1",
+			"url": "http://localhost:5000/loans/",
+			"time": "3",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "http://localhost:5000/loans/apply",
+			"id": "7cff2179-f5fd-4964-bbaa-4f4fc0fa14fe",
+			"url": "http://localhost:5000/loans/apply",
+			"time": "5",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		}
+	],
+	"synced": false
+}
