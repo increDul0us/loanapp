@@ -1,0 +1,26 @@
+{
+  "name": "increloan",
+  "version": "1.0.0",
+  "description": "A backend api where registered users can apply for loans",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "start": "nodemon app.js"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "keywords": [],
+  "author": "incredulous",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "moment": "^2.24.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "nodemon": "^1.18.9"
+  }
+}
