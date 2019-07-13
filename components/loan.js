@@ -41,7 +41,8 @@ module.exports = {
         tenureVal = `${moment.duration(tenure, 'M').asMonths()} months`
       } else tenureVal = `${moment.duration(tenure, 'M').asYears()} years`
       loans.push({ 'id': (loans[loans.length - 1].id) + 1, name, description, rate, amount, 'tenure': tenureVal, 'endTime': endTime })
-      return (loans)
+      let appliedLoan = { 'id': (loans[loans.length - 1].id) + 1, name, description, rate, amount, 'tenure': tenureVal }
+      return (appliedLoan)
     }
   }
 }
